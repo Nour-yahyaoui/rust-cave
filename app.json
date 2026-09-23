@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Rust Cave",
+    "slug": "rust-cave",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#120E0C",
+    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#120E0C" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.nouryahyaoui.rustcave" },
+    "android": {
+      "package": "com.nouryahyaoui.rustcave",
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#120E0C" },
+      "softwareKeyboardLayoutMode": "resize"
+    }
+  }
+}
