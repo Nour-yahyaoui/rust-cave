@@ -7,12 +7,27 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#120E0C",
-    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#120E0C" },
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.nouryahyaoui.rustcave" },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#120E0C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nouryahyaoui.rustcave"
+    },
     "android": {
       "package": "com.nouryahyaoui.rustcave",
-      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#120E0C" },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#120E0C"
+      },
       "softwareKeyboardLayoutMode": "resize"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3688aed1-7ad1-477f-9be6-2ec564eee13d"
+      }
     }
   }
 }
